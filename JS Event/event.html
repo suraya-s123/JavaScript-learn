@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <h2> HTML Events</h2>
+    <p id="event_1">Oncliclk Atribute</p>
+    <button onclick="document.getElementById('event_1').innerHTML=Date()">Click this real time</button>
+    <br>
+    <br>
+    <button onclick="this.innerHTML=Date()"> This time is into button </button>
+    <div onmouseover="this.style.backgroundColor='red'">
+        <p onchange="this.style.color='green'">background color red</p>
+    </div>
+    <br>
+    <!-- function called displayDate = Date() use-->
+    <p id="display"></p>
+    <button onclick="displayDate()">the time is come in function declearatin</button> 
+    
+    
+    <script src="event.js"> </script>
+</body>
+</html>

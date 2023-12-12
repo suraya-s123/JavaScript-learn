@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object
+    </title>
+</head>
+<body>
+    <h1>Learn of Object from W3schools</h1>
+    <p id="demo"> This is Object</p>
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is</button>
+    
+    <button onclick="this.innerHTML= Date()">the this keyword</button>
+
+    <button onclick="displayDate()"> the time</button>
+
+<button onchange="document.getElementById('demo').innerHTML=new Date()">onchange</button>
+<!-- onchange -->
+<p> Select a new car from the list</p>
+<select id="mySelect" onchange="myEventFunction()">
+<option value="Audi">Audi</option>
+<option value="BMW">BMW</option>
+<option value="Marcedes">Marcedes</option>
+<option value="volvo">Volvo</option>
+</select>
+
+
+
+    <script src="obj.js"> </script>
+</body>
+</html>
