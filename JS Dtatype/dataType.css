@@ -1,0 +1,37 @@
+
+.btn-top{
+    width: 100%;
+}
+.btn-top button{
+    background-color: green;
+    color: white;
+    width: 500 px;
+    padding: 2 px;
+    font-size: large;
+    text-underline-offset: none;
+}
+.types{
+    background-color: aliceblue;
+}
+.btn-top-fst{
+ float:left;
+}
+.btn-top-scnd{
+ float:right;
+}
+
+.middel{
+    background-color: rgb(57, 73, 73);
+    color: white;
+    border: 50px;
+}
+.middel-fst{
+    background-color: black;
+    margin: 5px 20px 20px 20px;
+    font-size: 15px;
+}
+
+.middel-fst p{
+    color: green;
+   
+}
