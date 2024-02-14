@@ -7,8 +7,36 @@
 </head>
 <body>
     <h1>String Search</h1>
-    <p id="demo1">1</p>
-    <p id="demo2">2</p>
-    <p id="demo3">3</p>
+    <p id="demo1">1. index of method</p>
+    <p id="demo2">last index of</p>
+    <p id="demo3">String search</p>
+    <p id="demo4-0">String match</p>
+    <p id="demo4-1">String match</p>
+    <p id="demo4-2">String match</p>
+    <p id="demo4-3">String match</p>
+    <p id="demo5">String match all ()</p>
+    <p id="demo51">String match all ()</p>
+
+    <script>
+        let stringdata="Suraya sarmin khatun suraya sarmin";
+        let index1 = stringdata.indexOf("sarmin");
+        let index2 = stringdata.lastIndexOf("sarmin");
+        let index3 = stringdata.search("sarmin");
+        let index40 = stringdata.match("sarmin");
+        let index41 = stringdata.match(/Sarmin/i);
+        let index42 = stringdata.match(/Sarmi/gi);
+        let index43 = stringdata.match(/armin/g);
+        let index5 = stringdata.matchAll("sarmin");
+        let index51 = stringdata.matchAll(/suraya/gi);
+        document.getElementById("demo1").innerHTML=index1;
+        document.getElementById("demo2").innerHTML=index2;
+        document.getElementById("demo3").innerHTML=index3;
+        document.getElementById("demo4-0").innerHTML=index40;
+        document.getElementById("demo4-1").innerHTML=index41;
+        document.getElementById("demo4-2").innerHTML=index42;
+        document.getElementById("demo4-3").innerHTML=index43;
+        document.getElementById("demo5").innerHTML=index5;
+        document.getElementById("demo51").innerHTML=Array.from(index51);
+    </script>
 </body>
 </html>
